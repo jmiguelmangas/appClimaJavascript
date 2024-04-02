@@ -1,4 +1,5 @@
-let apiKey = "521aa8613a1ac9cd4a8b1a3260fc02d1";
+import { apiKey } from "./api-key.js";
+
 let urlBase = "https://api.openweathermap.org/data/2.5/weather";
 let language = "es";
 
