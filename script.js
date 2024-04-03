@@ -42,7 +42,7 @@ function mostrarDatosClima(response) {
   cityTempTitulo.textContent = `${cityTemp} ºC`;
   const ciudadTitulo = document.createElement("h2");
   ciudadTitulo.setAttribute("id", "ciudadTitulo");
-  ciudadTitulo.textContent = `${cityName},${cityCountryInfo}`;
+  ciudadTitulo.textContent = `${cityName}, ${cityCountryInfo}`;
   const ciudadTempInfo = document.createElement("h3");
   ciudadTempInfo.setAttribute("id", "ciudadTempInfo");
   ciudadTempInfo.textContent = `La temperatura maxima del dia en ${cityName} será de ${cityTempMax} ºC y la minima de ${cityTempMin} ºC`;
